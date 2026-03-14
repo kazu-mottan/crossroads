@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 将来設計プランナー (Life Decision Analyzer)
 
-## Getting Started
+30歳を目前に、キャリア・海外移住・結婚・財務を総合的に分析・可視化するWebアプリケーション。
 
-First, run the development server:
+## 機能
+
+- **総合ダッシュボード** - 4つのシナリオをレーダーチャートとスコアで比較
+- **財務シミュレーション** - 35年分の収入・税金・貯蓄推移をグラフ表示
+- **キャリア分析** - 会社員+副業 vs フリーランス専業の多角比較
+- **海外移住比較** - 6カ国の生活費・税制・環境を徹底比較
+- **ライフイベント** - 結婚タイムライン・英語学習の低コスト戦略
+
+## 前提条件
+
+- 29歳 / アクセンチュア年収700万 + 副業年収1,300万
+- 副業月単価110万を本業化予定
+- 海外移住を検討中
+- 英語を学びたいが貯金はあまり使いたくない
+
+## セットアップ
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000 にアクセス
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 技術スタック
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS
+- Recharts（グラフ・チャート）
