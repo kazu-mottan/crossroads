@@ -2,11 +2,13 @@
   "name": "life-planner",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "gen:pptx": "node scripts/create-pptx.mjs"
   },
   "dependencies": {
     "next": "16.1.6",
