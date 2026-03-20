@@ -9,6 +9,7 @@ const navItems = [
   { href: "/financial", label: "財務シミュレーション", icon: "💰" },
   { href: "/career", label: "キャリア分析", icon: "💼" },
   { href: "/overseas", label: "海外移住比較", icon: "🌏" },
+  { href: "/strategy", label: "移住・ビジネス戦略", icon: "🧭" },
   { href: "/marriage", label: "ライフイベント", icon: "💍" },
 ];
 
